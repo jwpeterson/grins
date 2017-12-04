@@ -27,6 +27,12 @@
 
 // GRINS
 #include "grins/string_utils.h"
+#include "grins/neumann_bc_container.h"
+#include "grins/factory_with_getpot.h"
+
+// libMesh
+#include "libmesh/libmesh_common.h"
+#include "libmesh/getpot.h"
 
 namespace GRINS
 {

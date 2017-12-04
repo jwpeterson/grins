@@ -28,6 +28,9 @@
 // GRINS
 #include "grins/dirichlet_bc_factory_function_base.h"
 
+// libMesh
+#include "libmesh/libmesh_common.h"
+
 namespace GRINS
 {
   template<typename FunctionType>
